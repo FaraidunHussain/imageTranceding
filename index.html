@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image transceding</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1>Click The Button To Change Back Ground yourself</h1>
+        <button id="btn1" onclick="refresh()"> 
+            Back ground Image change. 
+        </button>
+    </div>
+    <script>
+function refresh(){
+    window.location.reload();
+}
+setInterval(refresh, 4000);
+    </script>
+</body>
+</html>
